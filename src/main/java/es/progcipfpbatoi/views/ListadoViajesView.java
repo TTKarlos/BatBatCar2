@@ -2,7 +2,7 @@ package es.progcipfpbatoi.views;
 
 import de.vandermeer.asciitable.AsciiTable;
 import de.vandermeer.skb.interfaces.transformers.textformat.TextAlignment;
-import es.progcipfpbatoi.model.entidades.types.Viaje;
+import es.progcipfpbatoi.model.entidades.Viaje;
 import java.util.List;
 
 

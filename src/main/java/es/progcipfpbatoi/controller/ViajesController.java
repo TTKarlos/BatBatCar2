@@ -1,7 +1,7 @@
 package es.progcipfpbatoi.controller;
 
 import es.progcipfpbatoi.model.entidades.Usuario;
-import es.progcipfpbatoi.model.entidades.types.Viaje;
+import es.progcipfpbatoi.model.entidades.Viaje;
 import es.progcipfpbatoi.model.managers.ViajesManager;
 import es.progcipfpbatoi.views.ListadoViajesView;
 import java.util.List;
