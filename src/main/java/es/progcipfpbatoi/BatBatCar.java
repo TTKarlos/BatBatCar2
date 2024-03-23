@@ -1,5 +1,10 @@
 package es.progcipfpbatoi;
 
+/**
+ * Clase principal.
+ * 
+ */
+
 import es.progcipfpbatoi.menu.Menu;
 
 public class BatBatCar {

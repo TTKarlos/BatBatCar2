@@ -1,5 +1,12 @@
 package es.progcipfpbatoi.utils;
 
+/**
+ * IMPORTANTE: Esta clase está dedicada para la entrada información por parte
+ * del usuario. No se debe declarar un objeto "Scanner" en ninguna otra parte
+ * del código. Siempre que quieras solicitar un dato, haz uso de uno de los 
+ * métodos aquí establecidos (puedes añadir nuevos, si lo crees conveniente).
+ */
+
 import java.util.Scanner;
 
 public class GestorIO {

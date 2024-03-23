@@ -1,5 +1,10 @@
 package es.progcipfpbatoi.views;
 
+/**
+ * Vista dedicada a los listados de viajes. De cada viaje se muestra su código,
+ * ruta, precio, propietario, tipo de viaje, plazas disponibles y si está cancelado.
+ */
+
 import de.vandermeer.asciitable.AsciiTable;
 import de.vandermeer.skb.interfaces.transformers.textformat.TextAlignment;
 import es.progcipfpbatoi.model.entidades.types.Viaje;

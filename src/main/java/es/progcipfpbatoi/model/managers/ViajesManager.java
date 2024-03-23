@@ -4,6 +4,12 @@ import es.progcipfpbatoi.model.entidades.types.Viaje;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Gestor de viajes. Manejará la lista de los viajes tanto para almancenar nueva 
+ * información sobre ella como para recuperar la totalidad o parte de la información
+ * como también información relacionada con dicha lista.
+ * @author batoi
+ */
 
 public class ViajesManager {
 
