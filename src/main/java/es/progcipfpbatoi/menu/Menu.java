@@ -12,10 +12,10 @@ public class Menu {
 
     private static final int OPCION_SALIR = 9;
     
-    private ViajesController agenteViajesController;
+    private ViajesController viajesController;
     
     public Menu() {
-        this.agenteViajesController = new ViajesController();
+        this.viajesController = new ViajesController();
     }
 
     public void iniciar(){
@@ -45,7 +45,7 @@ public class Menu {
         
         // Implementar método para ejecutar la opción recibida
         switch (opcionSeleccionada) {
-            case 2 -> agenteViajesController.listarViajes();
+            case 2 -> viajesController.listarViajes();
             default -> throw new UnsupportedOperationException("Por implementar");
         }
     }
