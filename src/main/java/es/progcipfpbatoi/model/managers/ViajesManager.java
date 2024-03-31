@@ -1,6 +1,6 @@
 package es.progcipfpbatoi.model.managers;
 
-import es.progcipfpbatoi.model.entidades.Viaje;
+import es.progcipfpbatoi.model.entidades.types.Viaje;
 import java.util.ArrayList;
 import java.util.List;
 
