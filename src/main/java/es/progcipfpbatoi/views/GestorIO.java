@@ -1,4 +1,4 @@
-package es.progcipfpbatoi.utils;
+package es.progcipfpbatoi.views;
 
 /**
  * IMPORTANTE: Esta clase está dedicada para la entrada información por parte
@@ -66,5 +66,9 @@ public class GestorIO {
 
             System.out.println("¡Error! Debe introducir S o N");
         } while (true);
+    }
+    
+    public static void print(String mensaje) {
+        System.out.println(mensaje);
     }
 }

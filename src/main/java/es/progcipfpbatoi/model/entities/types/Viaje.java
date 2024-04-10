@@ -1,4 +1,4 @@
-package es.progcipfpbatoi.model.entidades.types;
+package es.progcipfpbatoi.model.entities.types;
 /*
  * Clase que representa a un viaje estándar
 */

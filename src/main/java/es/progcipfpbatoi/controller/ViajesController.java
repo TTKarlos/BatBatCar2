@@ -1,8 +1,9 @@
 package es.progcipfpbatoi.controller;
 
-import es.progcipfpbatoi.model.entidades.Usuario;
-import es.progcipfpbatoi.model.entidades.types.Viaje;
+import es.progcipfpbatoi.model.entities.Usuario;
+import es.progcipfpbatoi.model.entities.types.Viaje;
 import es.progcipfpbatoi.model.managers.ViajesManager;
+import es.progcipfpbatoi.views.GestorIO;
 import es.progcipfpbatoi.views.ListadoViajesView;
 import java.util.List;
 
@@ -25,7 +26,7 @@ public class ViajesController {
      */
     public void listarViajes() {
         List<Viaje> viajes = viajesManager.findAll();
-        System.out.println(new ListadoViajesView(viajes));
+        (new ListadoViajesView(viajes)).visualizar();
     }
 
     /**
@@ -33,5 +34,6 @@ public class ViajesController {
      */
     public void anyadirViaje() {
         this.viajesManager.add(new Viaje());
+        GestorIO.print("Viaje añadido con éxito");
     }
 }
