@@ -47,6 +47,7 @@ class GestorIO {
         + getFloat(mensaje: String): float
         + getString(mensaje: String): String
         + confirmar(mensaje: String): boolean
+        + print(mensaje: String)
     }
 
     class ListadoViajesView {
